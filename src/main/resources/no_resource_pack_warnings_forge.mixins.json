@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.foxy.noresourcepackwarningsforge.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "no_resource_pack_warnings_forge.refmap.json",
+  "mixins": [
+  ],
+  "minVersion": "0.8",
+  "client": [
+    "OptionsMixin",
+    "PackEntryMixin"
+  ]
+}
