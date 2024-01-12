@@ -1,0 +1,23 @@
+modLoader="javafml"
+
+loaderVersion="[40,)"
+license="MIT Licence"
+[[mods]]
+modId="no_resource_pack_warnings_forge"
+version="${file.jarVersion}"
+displayName="No Resource Pack Warnings Forge"
+authors="1foxy2"
+description='''Disable warnings for outdated resource packs. Unofficial forge port of No Resource Pack Warnings'''
+[[dependencies.examplemod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
