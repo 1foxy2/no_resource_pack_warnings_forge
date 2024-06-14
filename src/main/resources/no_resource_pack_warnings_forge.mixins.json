@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.foxy.noresourcepackwarningsforge.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "OptionsMixin",
+    "PackEntryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
